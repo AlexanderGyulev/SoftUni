@@ -22,9 +22,19 @@ def main_function():
             lives -= 1
         elif current_number == magic_number:
             print("Congratulations! You've guessed the magic number!")
+            # asking the player if they want to try playing the game again
+            another_try = input("Do you want to try again (yes/no): ")
+            # if they do, the game is restarted
+            if another_try == "yes":
+                main_function()
+            # if they don't, the game ends
+            else:
+                print("Thank you for playing!")
+                time.sleep(5)
+                sys.exit()
         # checking if the player's lives have reached 0
         if lives == 0:
-            print("You couldn't guess the number.")
+            print(f"You couldn't guess the number. The number was {magic_number}!")
             # asking the player if they want to try playing the game again
             another_try = input("Do you want to try again (yes/no): ")
             # if they do, the game is restarted
