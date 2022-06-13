@@ -1,11 +1,11 @@
-# Project Title:
+# Project Title
 Guess The Number Game
 
-# Description: 
+# Description
 It's a simple game, created in Python - the program generates a random number between 1 and 50, and the user has to guess it. If the number guessed by the user is incorrect, 
 the program will provide a hint.
 
-## There are 4 possible scenarios:
+## There are 4 possible scenarios
 The number guessed by the user is lower than the random generated number - in which case, the program will display a text, saying that the guessed number is lower than the random number
 
 The number guessed by the user is higher than the random generated number - in which case, the program will display a text, saying that the guessed number is higher than the random number
