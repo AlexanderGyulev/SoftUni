@@ -1,2 +1,2 @@
 # SoftUni
-A repository, showcasing my progress during my courses in SoftUni
+A repository, that contains all my exercises, homeworks and mini projects during my education in SoftUni
