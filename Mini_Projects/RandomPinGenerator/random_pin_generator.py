@@ -26,7 +26,7 @@ def generate_number():
     for _ in range(how_many_digits):
         new_num = random.randint(0, 9)
         new_num = str(new_num)
-        total_pin = total_pin + new_num
+        total_pin += new_num
     print(total_pin)
 
 
