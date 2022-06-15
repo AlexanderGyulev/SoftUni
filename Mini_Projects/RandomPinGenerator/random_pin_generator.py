@@ -23,7 +23,7 @@ def main_function():
 def generate_number():
     checks()
     total_pin = ""
-    for nums in range(how_many_digits):
+    for _ in range(how_many_digits):
         new_num = random.randint(0, 9)
         new_num = str(new_num)
         total_pin = total_pin + new_num
