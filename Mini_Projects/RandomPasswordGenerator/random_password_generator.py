@@ -8,9 +8,15 @@ password_length = int(input("How long do you want your password to be (max 50 ch
 def main_program():
     generate_pass()
     another_password = input("Do you want to generate another password (yes/no): ")
+    while another_password not in ['yes', 'no']:
+        print("You need to enter yes or no.")
+        another_password = input("Do you want to play another game (yes/no): ")
     while another_password == "yes":
         generate_pass()
         another_password = input("Do you want to generate another password (yes/no): ")
+        while another_password not in ['yes', 'no']:
+            print("You need to enter yes or no.")
+            another_password = input("Do you want to play another game (yes/no): ")
     else:
         print("Thank you for using the program!")
         time.sleep(5)
@@ -38,7 +44,6 @@ def checks():
     while password_length > 50:
         print("Password must not be longer than 50 characters.")
         password_length = int(input("How long do you want your password to be (max 50 characters): "))
-
 
 
 main_program()
