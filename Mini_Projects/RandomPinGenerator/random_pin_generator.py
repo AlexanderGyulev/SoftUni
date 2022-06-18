@@ -10,9 +10,15 @@ def main_function():
     generate_number()
     # ask the user if they want to generate another PIN
     another_pin = input("Do you want to generate another PIN (yes/no): ")
+    while another_pin not in ['yes', 'no']:
+        print("You need to enter yes or no.")
+        another_pin = input("Do you want to play another game (yes/no): ")
     while another_pin == "yes":
         generate_number()
         another_pin = input("Do you want to generate another PIN (yes/no): ")
+        while another_pin not in ['yes', 'no']:
+            print("You need to enter yes or no.")
+            another_pin = input("Do you want to play another game (yes/no): ")
     else:
         print("Thank you for using the program!")
         time.sleep(5)
