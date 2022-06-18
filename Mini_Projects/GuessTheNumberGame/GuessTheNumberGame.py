@@ -24,6 +24,9 @@ def main_function():
             print("Congratulations! You've guessed the magic number!")
             # asking the player if they want to try playing the game again
             another_try = input("Do you want to try again (yes/no): ")
+            while another_try not in ['yes', 'no']:
+                print("You need to enter yes or no.")
+                another_try = input("Do you want to play another game (yes/no): ")
             # if they do, the game is restarted
             if another_try == "yes":
                 main_function()
@@ -37,6 +40,9 @@ def main_function():
             print(f"You couldn't guess the number. The number was {magic_number}!")
             # asking the player if they want to try playing the game again
             another_try = input("Do you want to try again (yes/no): ")
+            while another_try not in ['yes', 'no']:
+                print("You need to enter yes or no.")
+                another_try = input("Do you want to play another game (yes/no): ")
             # if they do, the game is restarted
             if another_try == "yes":
                 main_function()
