@@ -8,6 +8,10 @@ This is a simple temperature converter written in Python. When the program start
 Depending on the input, the temperature will either be converted to Fahrenheit, or to Celsius. The user has the option to convert another temperature.
 There are checks in place to ensure that the user has selected one of the two options. After converting a temperature, the user always gets asked if they want to convert again.
 
+# Try it
+
+You can try the program in your browser [here](https://replit.com/@AlexanderGulev/temperetureconverter#main.py).
+
 # Screenshots
 
 ![Screenshot from 2022-06-21 14-29-10](https://user-images.githubusercontent.com/104764256/174789391-dcecf088-ec16-4081-8014-77b7e8543b0a.png)
