@@ -6,7 +6,7 @@ Temperature Convertor
 
 This is a simple temperature converter written in Python. When the program starts, it asks from which temperature the user wants to convert (Celsius or Fahrenheit).
 Depending on the input, the temperature will either be converted to Fahrenheit, or to Celsius. The user has the option to convert another temperature.
-There are checks in place to ensure that the user has selected one of the two options.
+There are checks in place to ensure that the user has selected one of the two options. After converting a temperature, the user always gets asked if they want to convert again.
 
 # Screenshots
 
