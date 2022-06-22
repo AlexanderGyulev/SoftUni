@@ -7,6 +7,10 @@ Random Pin Generator
 This program generates a random PIN (using the random() method). The user has the option to choose the number of digits (as long as the number is different than 0 and less than 50).
 The user also has a choice to generate a new PIN after the first one is generated.
 
+# Try it
+
+You can try the program in your browser [here](https://replit.com/@AlexanderGulev/RandomPinGenerator#main.py).
+
 # Screenshots
 
 ![Screenshot from 2022-06-15 12-21-01](https://user-images.githubusercontent.com/104764256/173792760-a13b4e31-dc6f-4ac4-a2bf-9ac01975d4c7.png)
