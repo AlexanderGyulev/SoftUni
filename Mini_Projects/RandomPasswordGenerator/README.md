@@ -9,8 +9,11 @@ The program generates a random number and then turns that number to a character 
 
 The user also has a choice to generate a new password after the first one is generated.
 
-# Screenshots
+# Try it
 
+You can try the program in your browser [here](https://replit.com/@AlexanderGulev/RandomPasswordGenerator#main.py).
+
+# Screenshots
 
 ![Screenshot from 2022-06-16 14-11-15](https://user-images.githubusercontent.com/104764256/174058256-d65a2023-c023-4e4c-821f-d3841c4ff089.png)
 
