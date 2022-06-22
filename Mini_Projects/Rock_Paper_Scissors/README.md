@@ -14,6 +14,10 @@ Depending on the player input and the random choice made by the program, there a
 
 ![Screenshot from 2022-06-19 15-17-53](https://user-images.githubusercontent.com/104764256/174480541-1345cbae-bd7b-4c6a-a03b-676825014f91.png)
 
+# Try it
+
+You can try the program in your browser [here](https://replit.com/@AlexanderGulev/RockPaperScissors#main.py).
+
 
 # Screenshots
 
