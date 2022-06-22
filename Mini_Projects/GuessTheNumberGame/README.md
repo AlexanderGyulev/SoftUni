@@ -14,10 +14,13 @@ The number guessed by the user is equal to the random generated number - in whic
 
 There are no more tries left - in which case, the program will display a text, will reveal the random generated number and will ask the player if they want to play again
 
+# Try it
+
+You can try the program in your browser [here](https://replit.com/@AlexanderGulev/GuessTheNumberGame#main.py).
+
 # Screenshots
 ![Screenshot from 2022-06-13 15-02-13](https://user-images.githubusercontent.com/104764256/173349674-9687c0f4-3de3-4d46-90da-4e354240ab0c.png)
 
 ![Screenshot from 2022-06-13 15-03-41](https://user-images.githubusercontent.com/104764256/173349703-4ef4a76e-5e6c-410e-a077-1226fbc09072.png)
-
 
 ![Screenshot from 2022-06-13 15-04-15](https://user-images.githubusercontent.com/104764256/173349731-ab11d7aa-a365-43a8-a2eb-84b41645d189.png)
