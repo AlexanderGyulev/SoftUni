@@ -83,5 +83,3 @@ def checks():
 
 
 main_program()
-
-
