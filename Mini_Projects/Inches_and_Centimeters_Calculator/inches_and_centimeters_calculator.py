@@ -28,10 +28,10 @@ def inches():
 
 def another_try():
     global num
-    another_convert = input("Do you want to convert another measurement (yes/no):")
+    another_convert = input("Do you want to convert another number (yes/no): ")
     while another_convert not in ['yes', 'no']:
         print("Please enter yes or no.")
-        another_convert = input("Do you want to convert another measurement (yes/no):")
+        another_convert = input("Do you want to convert another number (yes/no): ")
     if another_convert == "yes":
         num = float(input("Please input the number that you want to convert: "))
         main_program()
