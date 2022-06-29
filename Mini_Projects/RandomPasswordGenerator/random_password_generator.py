@@ -10,16 +10,22 @@ symbols = ['!', '@', '#', '$', '%', '^', '&', '*', '(', ')', '_', '-', '+', '=']
 
 symbols_combined = letters + capital_letters + digits + symbols
 
+
 # main function, calls the generate_pass() function and asks if the user wants to generate another password
 def main_program():
     global password_length
     generate_pass()
     another_password = input("Do you want to generate another password (yes/no): ")
+    while another_password not in ['yes', 'no']:
+        print("You need to enter yes or no.")
+        another_password = input("Do you want to generate another password (yes/no): ")
     while another_password == "yes":
         password_length = int(input("How long do you want your password to be (max 50 characters): "))
         generate_pass()
         another_password = input("Do you want to generate another password (yes/no): ")
-
+        while another_password not in ['yes', 'no']:
+            print("You need to enter yes or no.")
+            another_password = input("Do you want to generate another password (yes/no): ")
     else:
         print("Thank you for using the program!")
         time.sleep(5)
