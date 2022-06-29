@@ -2,8 +2,7 @@
 Guess The Number Game
 
 # Description
-It's a simple game, created in Python - the program generates a random number between 1 and 50, and the user has to guess it. If the number guessed by the user is incorrect, 
-the program will provide a hint.
+It's a simple game, created in Python - the program generates a random number between 1 and 50, and the user has to guess it. If the number guessed by the user is incorrect, the program will provide a hint. The player also has a random chance of winning additional lives. After each incorrect number that the player has entered, the program prints the total lives left.
 
 ## There are 4 possible scenarios
 The number guessed by the user is lower than the random generated number - in which case, the program will display a text, saying that the guessed number is lower than the random number
@@ -22,5 +21,7 @@ You can try the program in your browser [here](https://replit.com/@AlexanderGule
 ![Screenshot from 2022-06-13 15-02-13](https://user-images.githubusercontent.com/104764256/173349674-9687c0f4-3de3-4d46-90da-4e354240ab0c.png)
 
 ![Screenshot from 2022-06-13 15-03-41](https://user-images.githubusercontent.com/104764256/173349703-4ef4a76e-5e6c-410e-a077-1226fbc09072.png)
+
+![Screenshot from 2022-06-29 15-20-58](https://user-images.githubusercontent.com/104764256/176434912-d67c9146-051a-498e-9899-81a54c3ab48e.png)
 
 ![Screenshot from 2022-06-13 15-04-15](https://user-images.githubusercontent.com/104764256/173349731-ab11d7aa-a365-43a8-a2eb-84b41645d189.png)
