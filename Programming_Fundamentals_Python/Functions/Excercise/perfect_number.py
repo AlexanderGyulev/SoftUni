@@ -4,9 +4,10 @@ def perfect_checker(num):
         if num % i == 0:
             sum_of_numbers += i
     if sum_of_numbers == num:
-        return "We have a perfect number!"
+        result = "We have a perfect number!"
     else:
-        return "It's not so perfect."
+        result = "It's not so perfect."
+    return result
 
 
 input_number = int(input())
