@@ -10,6 +10,6 @@ def palindrome_checker(sequence):
 sequence_of_strings = input().split(" ")
 palindrome = input()
 result = palindrome_checker(sequence_of_strings)
-counter = sequence_of_strings.count(palindrome)
+counter = result.count(palindrome)
 print(result)
 print(f"Found palindrome {counter} times")
