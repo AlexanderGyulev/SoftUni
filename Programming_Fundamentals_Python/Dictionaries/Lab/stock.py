@@ -18,5 +18,5 @@ def stock_checker(dictionary, inputs):
 input_string = input().split(" ")
 result = dictionary_operations(input_string)
 input_checks = input().split(" ")
-for items in input_checks:
-    stock_checker(result, items)
+for elements in input_checks:
+    stock_checker(result, elements)
