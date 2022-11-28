@@ -2,10 +2,10 @@ award = ""
 item_flag = False
 items_dictionary = {}
 
-while item_flag == False:
+while not item_flag:
     sequence_of_items = input().split(" ")
-    for items in range(1, len(sequence_of_items), 2):
-        if item_flag == True:
+    for items in range(1, len(sequence_of_items) + 1, 2):
+        if item_flag:
             break
         item = sequence_of_items[items].lower()
         amount = int(sequence_of_items[items - 1])
