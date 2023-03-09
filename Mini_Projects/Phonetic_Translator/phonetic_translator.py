@@ -1,3 +1,4 @@
+print("Please input your sentence:")
 sentence_for_transformation = input()
 
 letters_dictionary = {"a": "Alpha", "b": "Beta", "c": "Charlie", "d": "Delta", "e": "Echo", "f": "Foxtrot", "g": "Golf",
