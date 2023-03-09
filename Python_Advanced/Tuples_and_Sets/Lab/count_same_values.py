@@ -6,5 +6,5 @@ for elements in nums:
     if elements not in nums_dict.keys():
         nums_dict[elements] = nums.count(elements)
 
-for keys in nums_dict.keys():
-    print(f"{keys} - {nums_dict[keys]} times")
+for keys, values in nums_dict.items():
+    print(f"{keys} - {values} times")
