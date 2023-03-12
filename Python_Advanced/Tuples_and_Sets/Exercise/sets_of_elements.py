@@ -13,5 +13,4 @@ for _ in range(set_b_length):
 
 set_c = set_a.intersection(set_b)
 
-for element in set_c:
-    print(element)
+print(*set_c, sep="\n")
