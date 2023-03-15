@@ -33,8 +33,5 @@ for _ in range(lines_of_input):
         else:
             print(False)
 
-first = sorted(first)
-second = sorted(second)
-
-print(*first, sep=", ")
-print(*second, sep=", ")
+print(*sorted(first), sep=", ")
+print(*sorted(second), sep=", ")
