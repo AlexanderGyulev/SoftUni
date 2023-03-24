@@ -12,9 +12,8 @@ commands = list(input().split())
 
 for i in range(n):
     curr_list = input().split(" ")
-    for el in curr_list:
-        if el == "c":
-            total_coal += 1
+    if "c" in curr_list:
+        total_coal += curr_list.count("c")
     if "s" in curr_list:
         start_pos = curr_list.index("s")
         start_pos = [i, start_pos]
@@ -54,9 +53,9 @@ for curr_command in commands:
 
     if matrix[x][y] == "e":
         print(f"Game over! ({', '.join(str(x) for x in curr_position)})")
-        sys.exit()
+        break
     elif total_coal == total_coal_gathered:
         print(f"You collected all coal! ({', '.join(str(x) for x in curr_position)})")
-        sys.exit()
-
-print(f"{total_coal - total_coal_gathered} pieces of coal left. ({', '.join(str(x) for x in curr_position)})")
+        break
+else:
+    print(f"{total_coal - total_coal_gathered} pieces of coal left. ({', '.join(str(x) for x in curr_position)})")
