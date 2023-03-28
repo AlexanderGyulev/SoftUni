@@ -2,21 +2,8 @@ size_of_field = int(input())
 
 matrix = []
 
-paths_dict = {
-    'up': [],
-    'down': [],
-    'left': [],
-    'right': []
-
-}
-
-values_dict = {
-    'up': [],
-    'down': [],
-    'left': [],
-    'right': []
-
-}
+paths_dict = {'up': [], 'down': [], 'left': [], 'right': []}
+values_dict = {'up': [], 'down': [], 'left': [], 'right': []}
 
 total_eggs_collected = 0
 bunny_pos = []
@@ -40,6 +27,8 @@ for row in range(size_of_field):
         elif matrix[x][bunny_current_pos[1]].isdigit():
             paths_dict['up'].append([x, bunny_current_pos[1]])
             values_dict['up'].append(int(matrix[x][bunny_current_pos[1]]))
+    else:
+        break
 
 # eggs below bunny
 for row in range(size_of_field):
@@ -51,6 +40,8 @@ for row in range(size_of_field):
         elif matrix[x][bunny_current_pos[1]].isdigit():
             paths_dict['down'].append([x, bunny_current_pos[1]])
             values_dict['down'].append(int(matrix[x][bunny_current_pos[1]]))
+    else:
+        break
 
 # right side of bunny
 
@@ -63,6 +54,8 @@ for col in range(size_of_field):
         elif matrix[bunny_current_pos[0]][x].isdigit():
             paths_dict['right'].append([bunny_current_pos[0], x])
             values_dict['right'].append(int(matrix[bunny_current_pos[0]][x]))
+    else:
+        break
 
 # left side of bunny
 for col in range(size_of_field):
@@ -74,6 +67,8 @@ for col in range(size_of_field):
         elif matrix[bunny_current_pos[0]][x].isdigit():
             paths_dict['left'].append([bunny_current_pos[0], x])
             values_dict['left'].append(int(matrix[bunny_current_pos[0]][x]))
+    else:
+        break
 
 max_value = 0
 max_path = ""
@@ -87,5 +82,5 @@ print(max_path)
 
 for elements in paths_dict[max_path]:
     print(elements)
-    
+
 print(max_value)
